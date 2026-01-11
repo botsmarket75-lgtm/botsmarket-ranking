@@ -1,1 +1,809 @@
-
+{
+  "date": "20260110",
+  "prev_date": null,
+  "methodology": {
+    "formula": "score = round(0.70*base + 0.30*agentic + dailyNoise)"
+  },
+  "rows": [
+    {
+      "name": "Microsoft",
+      "website": "https://www.microsoft.com",
+      "category": "Enterprise Platforms",
+      "score": 88,
+      "rank": 1,
+      "delta_rank": null
+    },
+    {
+      "name": "Oracle",
+      "website": "https://www.oracle.com",
+      "category": "Enterprise Platforms",
+      "score": 86,
+      "rank": 2,
+      "delta_rank": null
+    },
+    {
+      "name": "Salesforce",
+      "website": "https://www.salesforce.com",
+      "category": "Enterprise Platforms",
+      "score": 85,
+      "rank": 3,
+      "delta_rank": null
+    },
+    {
+      "name": "SAP",
+      "website": "https://www.sap.com",
+      "category": "Enterprise Platforms",
+      "score": 85,
+      "rank": 4,
+      "delta_rank": null
+    },
+    {
+      "name": "ServiceNow",
+      "website": "https://www.servicenow.com",
+      "category": "Enterprise Platforms",
+      "score": 84,
+      "rank": 5,
+      "delta_rank": null
+    },
+    {
+      "name": "Databricks",
+      "website": "https://www.databricks.com",
+      "category": "Enterprise Platforms",
+      "score": 83,
+      "rank": 6,
+      "delta_rank": null
+    },
+    {
+      "name": "OpenAI",
+      "website": "https://openai.com",
+      "category": "Enterprise Platforms",
+      "score": 83,
+      "rank": 7,
+      "delta_rank": null
+    },
+    {
+      "name": "Google Cloud",
+      "website": "https://cloud.google.com",
+      "category": "Enterprise Platforms",
+      "score": 82,
+      "rank": 8,
+      "delta_rank": null
+    },
+    {
+      "name": "Amazon AWS",
+      "website": "https://aws.amazon.com",
+      "category": "Enterprise Platforms",
+      "score": 82,
+      "rank": 9,
+      "delta_rank": null
+    },
+    {
+      "name": "Snowflake",
+      "website": "https://www.snowflake.com",
+      "category": "Enterprise Platforms",
+      "score": 81,
+      "rank": 10,
+      "delta_rank": null
+    },
+    {
+      "name": "Microsoft Copilot Studio",
+      "website": "https://www.microsoft.com/en-us/microsoft-copilot/microsoft-copilot-studio",
+      "category": "Agentic Platforms / Frameworks",
+      "score": 81,
+      "rank": 11,
+      "delta_rank": null
+    },
+    {
+      "name": "LangChain",
+      "website": "https://www.langchain.com",
+      "category": "Agentic Platforms / Frameworks",
+      "score": 80,
+      "rank": 12,
+      "delta_rank": null
+    },
+    {
+      "name": "LangGraph",
+      "website": "https://langchain-ai.github.io/langgraph/",
+      "category": "Agentic Platforms / Frameworks",
+      "score": 80,
+      "rank": 13,
+      "delta_rank": null
+    },
+    {
+      "name": "Google Vertex AI Agent Builder",
+      "website": "https://cloud.google.com/vertex-ai",
+      "category": "Agentic Platforms / Frameworks",
+      "score": 80,
+      "rank": 14,
+      "delta_rank": null
+    },
+    {
+      "name": "AWS Bedrock Agents",
+      "website": "https://aws.amazon.com/bedrock/",
+      "category": "Agentic Platforms / Frameworks",
+      "score": 80,
+      "rank": 15,
+      "delta_rank": null
+    },
+    {
+      "name": "Anthropic",
+      "website": "https://www.anthropic.com",
+      "category": "Foundation Models / GenAI",
+      "score": 80,
+      "rank": 16,
+      "delta_rank": null
+    },
+    {
+      "name": "UiPath",
+      "website": "https://www.uipath.com",
+      "category": "Ops / Automation / RPA / iPaaS",
+      "score": 79,
+      "rank": 17,
+      "delta_rank": null
+    },
+    {
+      "name": "Semantic Kernel",
+      "website": "https://github.com/microsoft/semantic-kernel",
+      "category": "Agentic Platforms / Frameworks",
+      "score": 79,
+      "rank": 18,
+      "delta_rank": null
+    },
+    {
+      "name": "Mistral AI",
+      "website": "https://mistral.ai",
+      "category": "Foundation Models / GenAI",
+      "score": 79,
+      "rank": 19,
+      "delta_rank": null
+    },
+    {
+      "name": "Intercom",
+      "website": "https://www.intercom.com",
+      "category": "Customer Support / CX",
+      "score": 78,
+      "rank": 20,
+      "delta_rank": null
+    },
+    {
+      "name": "Automation Anywhere",
+      "website": "https://www.automationanywhere.com",
+      "category": "Ops / Automation / RPA / iPaaS",
+      "score": 78,
+      "rank": 21,
+      "delta_rank": null
+    },
+    {
+      "name": "Workato",
+      "website": "https://www.workato.com",
+      "category": "Ops / Automation / RPA / iPaaS",
+      "score": 78,
+      "rank": 22,
+      "delta_rank": null
+    },
+    {
+      "name": "PEGA",
+      "website": "https://www.pega.com",
+      "category": "Ops / Automation / RPA / iPaaS",
+      "score": 78,
+      "rank": 23,
+      "delta_rank": null
+    },
+    {
+      "name": "CrewAI",
+      "website": "https://www.crewai.com",
+      "category": "Agentic Platforms / Frameworks",
+      "score": 78,
+      "rank": 24,
+      "delta_rank": null
+    },
+    {
+      "name": "LlamaIndex",
+      "website": "https://www.llamaindex.ai",
+      "category": "Agentic Platforms / Frameworks",
+      "score": 78,
+      "rank": 25,
+      "delta_rank": null
+    },
+    {
+      "name": "IBM watsonx",
+      "website": "https://www.ibm.com/watsonx",
+      "category": "Foundation Models / GenAI",
+      "score": 78,
+      "rank": 26,
+      "delta_rank": null
+    },
+    {
+      "name": "SS&C Blue Prism",
+      "website": "https://www.blueprism.com",
+      "category": "Ops / Automation / RPA / iPaaS",
+      "score": 77,
+      "rank": 27,
+      "delta_rank": null
+    },
+    {
+      "name": "Haystack",
+      "website": "https://haystack.deepset.ai",
+      "category": "Agentic Platforms / Frameworks",
+      "score": 77,
+      "rank": 28,
+      "delta_rank": null
+    },
+    {
+      "name": "Cohere",
+      "website": "https://cohere.com",
+      "category": "Foundation Models / GenAI",
+      "score": 77,
+      "rank": 29,
+      "delta_rank": null
+    },
+    {
+      "name": "Hugging Face",
+      "website": "https://huggingface.co",
+      "category": "Foundation Models / GenAI",
+      "score": 77,
+      "rank": 30,
+      "delta_rank": null
+    },
+    {
+      "name": "Dataiku",
+      "website": "https://www.dataiku.com",
+      "category": "Data / AI Platforms",
+      "score": 77,
+      "rank": 31,
+      "delta_rank": null
+    },
+    {
+      "name": "CrowdStrike",
+      "website": "https://www.crowdstrike.com",
+      "category": "IT Ops / Observability / SecOps",
+      "score": 77,
+      "rank": 32,
+      "delta_rank": null
+    },
+    {
+      "name": "Zendesk",
+      "website": "https://www.zendesk.com",
+      "category": "Customer Support / CX",
+      "score": 76,
+      "rank": 33,
+      "delta_rank": null
+    },
+    {
+      "name": "MuleSoft",
+      "website": "https://www.mulesoft.com",
+      "category": "Ops / Automation / RPA / iPaaS",
+      "score": 76,
+      "rank": 34,
+      "delta_rank": null
+    },
+    {
+      "name": "Boomi",
+      "website": "https://boomi.com",
+      "category": "Ops / Automation / RPA / iPaaS",
+      "score": 76,
+      "rank": 35,
+      "delta_rank": null
+    },
+    {
+      "name": "Camunda",
+      "website": "https://camunda.com",
+      "category": "Ops / Automation / RPA / iPaaS",
+      "score": 76,
+      "rank": 36,
+      "delta_rank": null
+    },
+    {
+      "name": "Pinecone",
+      "website": "https://www.pinecone.io",
+      "category": "Data / AI Platforms",
+      "score": 76,
+      "rank": 37,
+      "delta_rank": null
+    },
+    {
+      "name": "Freshworks",
+      "website": "https://www.freshworks.com",
+      "category": "Customer Support / CX",
+      "score": 75,
+      "rank": 38,
+      "delta_rank": null
+    },
+    {
+      "name": "Freshdesk",
+      "website": "https://www.freshworks.com/freshdesk/",
+      "category": "Customer Support / CX",
+      "score": 75,
+      "rank": 39,
+      "delta_rank": null
+    },
+    {
+      "name": "NICE",
+      "website": "https://www.nice.com",
+      "category": "Customer Support / CX",
+      "score": 75,
+      "rank": 40,
+      "delta_rank": null
+    },
+    {
+      "name": "HubSpot",
+      "website": "https://www.hubspot.com",
+      "category": "Sales / Marketing",
+      "score": 75,
+      "rank": 41,
+      "delta_rank": null
+    },
+    {
+      "name": "Informatica",
+      "website": "https://www.informatica.com",
+      "category": "Ops / Automation / RPA / iPaaS",
+      "score": 75,
+      "rank": 42,
+      "delta_rank": null
+    },
+    {
+      "name": "Celonis",
+      "website": "https://www.celonis.com",
+      "category": "Ops / Automation / RPA / iPaaS",
+      "score": 75,
+      "rank": 43,
+      "delta_rank": null
+    },
+    {
+      "name": "AutoGPT",
+      "website": "https://github.com/Significant-Gravitas/AutoGPT",
+      "category": "Agentic Platforms / Frameworks",
+      "score": 75,
+      "rank": 44,
+      "delta_rank": null
+    },
+    {
+      "name": "SuperAGI",
+      "website": "https://github.com/TransformerOptimus/SuperAGI",
+      "category": "Agentic Platforms / Frameworks",
+      "score": 75,
+      "rank": 45,
+      "delta_rank": null
+    },
+    {
+      "name": "Confluent",
+      "website": "https://www.confluent.io",
+      "category": "Data / AI Platforms",
+      "score": 75,
+      "rank": 46,
+      "delta_rank": null
+    },
+    {
+      "name": "Datadog",
+      "website": "https://www.datadoghq.com",
+      "category": "IT Ops / Observability / SecOps",
+      "score": 75,
+      "rank": 47,
+      "delta_rank": null
+    },
+    {
+      "name": "Microsoft Sentinel",
+      "website": "https://azure.microsoft.com/en-us/products/microsoft-sentinel",
+      "category": "IT Ops / Observability / SecOps",
+      "score": 75,
+      "rank": 48,
+      "delta_rank": null
+    },
+    {
+      "name": "Tidio",
+      "website": "https://www.tidio.com",
+      "category": "Customer Support / CX",
+      "score": 74,
+      "rank": 49,
+      "delta_rank": null
+    },
+    {
+      "name": "Ada",
+      "website": "https://www.ada.cx",
+      "category": "Customer Support / CX",
+      "score": 74,
+      "rank": 50,
+      "delta_rank": null
+    },
+    {
+      "name": "HubSpot Service Hub",
+      "website": "https://www.hubspot.com/products/service",
+      "category": "Customer Support / CX",
+      "score": 74,
+      "rank": 51,
+      "delta_rank": null
+    },
+    {
+      "name": "Genesys",
+      "website": "https://www.genesys.com",
+      "category": "Customer Support / CX",
+      "score": 74,
+      "rank": 52,
+      "delta_rank": null
+    },
+    {
+      "name": "Talkdesk",
+      "website": "https://www.talkdesk.com",
+      "category": "Customer Support / CX",
+      "score": 74,
+      "rank": 53,
+      "delta_rank": null
+    },
+    {
+      "name": "Conversica",
+      "website": "https://www.conversica.com",
+      "category": "Sales / Marketing",
+      "score": 74,
+      "rank": 54,
+      "delta_rank": null
+    },
+    {
+      "name": "Workday",
+      "website": "https://www.workday.com",
+      "category": "Ops / Automation / RPA / iPaaS",
+      "score": 74,
+      "rank": 55,
+      "delta_rank": null
+    },
+    {
+      "name": "Elastic",
+      "website": "https://www.elastic.co",
+      "category": "Data / AI Platforms",
+      "score": 74,
+      "rank": 56,
+      "delta_rank": null
+    },
+    {
+      "name": "MongoDB",
+      "website": "https://www.mongodb.com",
+      "category": "Data / AI Platforms",
+      "score": 74,
+      "rank": 57,
+      "delta_rank": null
+    },
+    {
+      "name": "Dynatrace",
+      "website": "https://www.dynatrace.com",
+      "category": "IT Ops / Observability / SecOps",
+      "score": 74,
+      "rank": 58,
+      "delta_rank": null
+    },
+    {
+      "name": "Splunk",
+      "website": "https://www.splunk.com",
+      "category": "IT Ops / Observability / SecOps",
+      "score": 74,
+      "rank": 59,
+      "delta_rank": null
+    },
+    {
+      "name": "Palo Alto Networks Cortex",
+      "website": "https://www.paloaltonetworks.com/cortex",
+      "category": "IT Ops / Observability / SecOps",
+      "score": 74,
+      "rank": 60,
+      "delta_rank": null
+    },
+    {
+      "name": "SentinelOne",
+      "website": "https://www.sentinelone.com",
+      "category": "IT Ops / Observability / SecOps",
+      "score": 74,
+      "rank": 61,
+      "delta_rank": null
+    },
+    {
+      "name": "Five9",
+      "website": "https://www.five9.com",
+      "category": "Customer Support / CX",
+      "score": 73,
+      "rank": 62,
+      "delta_rank": null
+    },
+    {
+      "name": "Salesloft",
+      "website": "https://salesloft.com",
+      "category": "Sales / Marketing",
+      "score": 73,
+      "rank": 63,
+      "delta_rank": null
+    },
+    {
+      "name": "TIBCO",
+      "website": "https://www.tibco.com",
+      "category": "Ops / Automation / RPA / iPaaS",
+      "score": 73,
+      "rank": 64,
+      "delta_rank": null
+    },
+    {
+      "name": "n8n",
+      "website": "https://n8n.io",
+      "category": "Ops / Automation / RPA / iPaaS",
+      "score": 73,
+      "rank": 65,
+      "delta_rank": null
+    },
+    {
+      "name": "SAP Signavio",
+      "website": "https://www.signavio.com",
+      "category": "Ops / Automation / RPA / iPaaS",
+      "score": 73,
+      "rank": 66,
+      "delta_rank": null
+    },
+    {
+      "name": "Weaviate",
+      "website": "https://weaviate.io",
+      "category": "Data / AI Platforms",
+      "score": 73,
+      "rank": 67,
+      "delta_rank": null
+    },
+    {
+      "name": "Qdrant",
+      "website": "https://qdrant.tech",
+      "category": "Data / AI Platforms",
+      "score": 73,
+      "rank": 68,
+      "delta_rank": null
+    },
+    {
+      "name": "dbt Labs",
+      "website": "https://www.getdbt.com",
+      "category": "Data / AI Platforms",
+      "score": 73,
+      "rank": 69,
+      "delta_rank": null
+    },
+    {
+      "name": "PagerDuty",
+      "website": "https://www.pagerduty.com",
+      "category": "IT Ops / Observability / SecOps",
+      "score": 73,
+      "rank": 70,
+      "delta_rank": null
+    },
+    {
+      "name": "Siemens Insights Hub",
+      "website": "https://www.siemens.com",
+      "category": "OT / IoT / Industry",
+      "score": 73,
+      "rank": 71,
+      "delta_rank": null
+    },
+    {
+      "name": "PTC ThingWorx",
+      "website": "https://www.ptc.com/en/products/thingworx",
+      "category": "OT / IoT / Industry",
+      "score": 73,
+      "rank": 72,
+      "delta_rank": null
+    },
+    {
+      "name": "Gorgias",
+      "website": "https://www.gorgias.com",
+      "category": "Customer Support / CX",
+      "score": 72,
+      "rank": 73,
+      "delta_rank": null
+    },
+    {
+      "name": "Sprinklr",
+      "website": "https://www.sprinklr.com",
+      "category": "Customer Support / CX",
+      "score": 72,
+      "rank": 74,
+      "delta_rank": null
+    },
+    {
+      "name": "LivePerson",
+      "website": "https://www.liveperson.com",
+      "category": "Customer Support / CX",
+      "score": 72,
+      "rank": 75,
+      "delta_rank": null
+    },
+    {
+      "name": "Drift",
+      "website": "https://www.drift.com",
+      "category": "Sales / Marketing",
+      "score": 72,
+      "rank": 76,
+      "delta_rank": null
+    },
+    {
+      "name": "Outreach",
+      "website": "https://www.outreach.io",
+      "category": "Sales / Marketing",
+      "score": 72,
+      "rank": 77,
+      "delta_rank": null
+    },
+    {
+      "name": "Marketo (Adobe)",
+      "website": "https://business.adobe.com/products/marketo/adobe-marketo.html",
+      "category": "Sales / Marketing",
+      "score": 72,
+      "rank": 78,
+      "delta_rank": null
+    },
+    {
+      "name": "Zapier",
+      "website": "https://zapier.com",
+      "category": "Ops / Automation / RPA / iPaaS",
+      "score": 72,
+      "rank": 79,
+      "delta_rank": null
+    },
+    {
+      "name": "Tray.io",
+      "website": "https://tray.io",
+      "category": "Ops / Automation / RPA / iPaaS",
+      "score": 72,
+      "rank": 80,
+      "delta_rank": null
+    },
+    {
+      "name": "Milvus (Zilliz)",
+      "website": "https://zilliz.com",
+      "category": "Data / AI Platforms",
+      "score": 72,
+      "rank": 81,
+      "delta_rank": null
+    },
+    {
+      "name": "Fivetran",
+      "website": "https://www.fivetran.com",
+      "category": "Data / AI Platforms",
+      "score": 72,
+      "rank": 82,
+      "delta_rank": null
+    },
+    {
+      "name": "New Relic",
+      "website": "https://newrelic.com",
+      "category": "IT Ops / Observability / SecOps",
+      "score": 72,
+      "rank": 83,
+      "delta_rank": null
+    },
+    {
+      "name": "Apollo.io",
+      "website": "https://www.apollo.io",
+      "category": "Sales / Marketing",
+      "score": 71,
+      "rank": 84,
+      "delta_rank": null
+    },
+    {
+      "name": "Make (Integromat)",
+      "website": "https://www.make.com",
+      "category": "Ops / Automation / RPA / iPaaS",
+      "score": 71,
+      "rank": 85,
+      "delta_rank": null
+    },
+    {
+      "name": "Coupa",
+      "website": "https://www.coupa.com",
+      "category": "Ops / Automation / RPA / iPaaS",
+      "score": 71,
+      "rank": 86,
+      "delta_rank": null
+    },
+    {
+      "name": "Schneider Electric EcoStruxure",
+      "website": "https://www.se.com/ww/en/work/solutions/for-business/ecostruxure/",
+      "category": "OT / IoT / Industry",
+      "score": 71,
+      "rank": 87,
+      "delta_rank": null
+    },
+    {
+      "name": "AVEVA",
+      "website": "https://www.aveva.com",
+      "category": "OT / IoT / Industry",
+      "score": 71,
+      "rank": 88,
+      "delta_rank": null
+    },
+    {
+      "name": "GE Digital",
+      "website": "https://www.ge.com/digital",
+      "category": "OT / IoT / Industry",
+      "score": 71,
+      "rank": 89,
+      "delta_rank": null
+    },
+    {
+      "name": "Rockwell Automation FactoryTalk",
+      "website": "https://www.rockwellautomation.com/en-us/products/software/factorytalk.html",
+      "category": "OT / IoT / Industry",
+      "score": 71,
+      "rank": 90,
+      "delta_rank": null
+    },
+    {
+      "name": "Emerson AspenTech",
+      "website": "https://www.aspentech.com",
+      "category": "OT / IoT / Industry",
+      "score": 71,
+      "rank": 91,
+      "delta_rank": null
+    },
+    {
+      "name": "Cisco IoT",
+      "website": "https://www.cisco.com/c/en/us/solutions/internet-of-things/overview.html",
+      "category": "OT / IoT / Industry",
+      "score": 71,
+      "rank": 92,
+      "delta_rank": null
+    },
+    {
+      "name": "Kustomer",
+      "website": "https://www.kustomer.com",
+      "category": "Customer Support / CX",
+      "score": 70,
+      "rank": 93,
+      "delta_rank": null
+    },
+    {
+      "name": "Zoho Desk",
+      "website": "https://www.zoho.com/desk/",
+      "category": "Customer Support / CX",
+      "score": 70,
+      "rank": 94,
+      "delta_rank": null
+    },
+    {
+      "name": "Reply.io",
+      "website": "https://reply.io",
+      "category": "Sales / Marketing",
+      "score": 70,
+      "rank": 95,
+      "delta_rank": null
+    },
+    {
+      "name": "Klaviyo",
+      "website": "https://www.klaviyo.com",
+      "category": "Sales / Marketing",
+      "score": 70,
+      "rank": 96,
+      "delta_rank": null
+    },
+    {
+      "name": "Airbyte",
+      "website": "https://airbyte.com",
+      "category": "Data / AI Platforms",
+      "score": 70,
+      "rank": 97,
+      "delta_rank": null
+    },
+    {
+      "name": "Honeywell Forge",
+      "website": "https://www.honeywell.com/us/en/solutions/industrial/iot/honeywell-forge",
+      "category": "OT / IoT / Industry",
+      "score": 70,
+      "rank": 98,
+      "delta_rank": null
+    },
+    {
+      "name": "Mailchimp",
+      "website": "https://mailchimp.com",
+      "category": "Sales / Marketing",
+      "score": 68,
+      "rank": 99,
+      "delta_rank": null
+    },
+    {
+      "name": "IFTTT",
+      "website": "https://ifttt.com",
+      "category": "Ops / Automation / RPA / iPaaS",
+      "score": 67,
+      "rank": 100,
+      "delta_rank": null
+    }
+  ]
+}
