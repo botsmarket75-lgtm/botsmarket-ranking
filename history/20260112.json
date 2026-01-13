@@ -1,6 +1,6 @@
 {
   "date": "20260112",
-  "prev_date": "20260113",
+  "prev_date": "20260110",
   "methodology": {
     "formula": "score = round(0.70*(base + market_delta) + 0.30*agentic) with daily cap ±2",
     "market_delta": "Google News RSS + Central Signals RSS (G2/Gartner/Forrester/TrustRadius), weighted stronger",
