@@ -18,11 +18,18 @@ const solutions = JSON.parse(fs.readFileSync("solutions.json","utf8"));
 const histDir = "history";
 if(!fs.existsSync(histDir)) fs.mkdirSync(histDir);
 
-const prevPath = path.join(histDir, `${yesterday}.json`);
+// ✅ NOUVEAU : on lit prev_ranking.json à la racine (PRIORITÉ)
+const prevRootPath = "prev_ranking.json";
+// (fallback historique : ton ancien mécanisme)
+const prevHistPath = path.join(histDir, `${yesterday}.json`);
 
 let prev = null;
 try{
-  prev = JSON.parse(fs.readFileSync(prevPath,"utf8"));
+  if(fs.existsSync(prevRootPath)){
+    prev = JSON.parse(fs.readFileSync(prevRootPath,"utf8"));
+  }else{
+    prev = JSON.parse(fs.readFileSync(prevHistPath,"utf8"));
+  }
 }catch(e){
   prev = null;
 }
@@ -211,8 +218,12 @@ async function build(){
     rows
   };
 
+  // ranking du jour
   fs.writeFileSync("ranking.json", JSON.stringify(out,null,2));
+  // historique
   fs.writeFileSync(path.join(histDir, `${today}.json`), JSON.stringify(out,null,2));
+  // ✅ NOUVEAU : on prépare “demain” -> prev_ranking.json
+  fs.writeFileSync("prev_ranking.json", JSON.stringify(out,null,2));
 
   console.log("Generated ranking.json", today);
 }
