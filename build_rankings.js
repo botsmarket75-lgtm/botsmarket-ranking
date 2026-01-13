@@ -18,17 +18,18 @@ const solutions = JSON.parse(fs.readFileSync("solutions.json","utf8"));
 const histDir = "history";
 if(!fs.existsSync(histDir)) fs.mkdirSync(histDir);
 
-// ✅ NOUVEAU : on lit prev_ranking.json à la racine (PRIORITÉ)
-const prevRootPath = "prev_ranking.json";
-// (fallback historique : ton ancien mécanisme)
-const prevHistPath = path.join(histDir, `${yesterday}.json`);
-
+// ✅ NOUVEAU : on lit prev_ranking.json (racine) en priorité
 let prev = null;
+const prevRankingPath = "prev_ranking.json";
+const prevHistoryPath = path.join(histDir, `${yesterday}.json`);
+
 try{
-  if(fs.existsSync(prevRootPath)){
-    prev = JSON.parse(fs.readFileSync(prevRootPath,"utf8"));
-  }else{
-    prev = JSON.parse(fs.readFileSync(prevHistPath,"utf8"));
+  if(fs.existsSync(prevRankingPath)){
+    prev = JSON.parse(fs.readFileSync(prevRankingPath,"utf8"));
+  } else if(fs.existsSync(prevHistoryPath)){
+    prev = JSON.parse(fs.readFileSync(prevHistoryPath,"utf8"));
+  } else {
+    prev = null;
   }
 }catch(e){
   prev = null;
@@ -218,11 +219,11 @@ async function build(){
     rows
   };
 
-  // ranking du jour
+  // ✅ écriture des fichiers
   fs.writeFileSync("ranking.json", JSON.stringify(out,null,2));
-  // historique
   fs.writeFileSync(path.join(histDir, `${today}.json`), JSON.stringify(out,null,2));
-  // ✅ NOUVEAU : on prépare “demain” -> prev_ranking.json
+
+  // ✅ NOUVEAU : on met à jour prev_ranking.json pour la prochaine exécution
   fs.writeFileSync("prev_ranking.json", JSON.stringify(out,null,2));
 
   console.log("Generated ranking.json", today);
