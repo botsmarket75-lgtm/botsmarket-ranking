@@ -210,7 +210,7 @@ async function build(){
 
   const out = {
     date: today,
-    prev_date: prev?.date || null,
+    prev_date: prev ? yesterday : null,
     methodology: {
       formula: "score = round(0.70*(base + market_delta) + 0.30*agentic) with daily cap ±2",
       market_delta: "Google News RSS + Central Signals RSS (G2/Gartner/Forrester/TrustRadius), weighted stronger",
