@@ -1,6 +1,6 @@
 {
-  "date": "20260401",
-  "prev_date": "20260331",
+  "date": "20260402",
+  "prev_date": "20260401",
   "methodology": {
     "formula": "score = round(0.70*(base + market_delta) + 0.30*agentic) with daily cap ±2",
     "market_delta": "Google News RSS + Central Signals RSS (G2/Gartner/Forrester/TrustRadius), weighted stronger",
@@ -14,9 +14,9 @@
       "score": 92,
       "market_delta": 6,
       "market_meta": {
-        "mentions": 48,
-        "recent": 26,
-        "pos": 24,
+        "mentions": 49,
+        "recent": 27,
+        "pos": 32,
         "neg": 0,
         "centralHits": 43
       },
@@ -31,10 +31,10 @@
       "market_delta": 6,
       "market_meta": {
         "mentions": 50,
-        "recent": 28,
+        "recent": 26,
         "pos": 20,
         "neg": 0,
-        "centralHits": 32
+        "centralHits": 34
       },
       "rank": 2,
       "delta_rank": 0
@@ -46,11 +46,11 @@
       "score": 90,
       "market_delta": 6,
       "market_meta": {
-        "mentions": 49,
+        "mentions": 50,
         "recent": 28,
-        "pos": 24,
+        "pos": 26,
         "neg": 1,
-        "centralHits": 17
+        "centralHits": 19
       },
       "rank": 3,
       "delta_rank": 0
@@ -63,10 +63,10 @@
       "market_delta": 6,
       "market_meta": {
         "mentions": 50,
-        "recent": 19,
-        "pos": 26,
-        "neg": 1,
-        "centralHits": 18
+        "recent": 21,
+        "pos": 23,
+        "neg": 2,
+        "centralHits": 17
       },
       "rank": 4,
       "delta_rank": 0
@@ -78,11 +78,11 @@
       "score": 88,
       "market_delta": 6,
       "market_meta": {
-        "mentions": 50,
-        "recent": 24,
+        "mentions": 49,
+        "recent": 25,
         "pos": 53,
         "neg": 0,
-        "centralHits": 34
+        "centralHits": 36
       },
       "rank": 5,
       "delta_rank": 0
@@ -96,9 +96,9 @@
       "market_meta": {
         "mentions": 50,
         "recent": 25,
-        "pos": 15,
+        "pos": 21,
         "neg": 0,
-        "centralHits": 11
+        "centralHits": 12
       },
       "rank": 6,
       "delta_rank": 0
@@ -111,10 +111,10 @@
       "market_delta": 6,
       "market_meta": {
         "mentions": 50,
-        "recent": 15,
-        "pos": 27,
+        "recent": 12,
+        "pos": 28,
         "neg": 1,
-        "centralHits": 30
+        "centralHits": 29
       },
       "rank": 7,
       "delta_rank": 0
@@ -127,9 +127,9 @@
       "market_delta": 6,
       "market_meta": {
         "mentions": 50,
-        "recent": 14,
-        "pos": 29,
-        "neg": 2,
+        "recent": 19,
+        "pos": 25,
+        "neg": 6,
         "centralHits": 21
       },
       "rank": 8,
@@ -143,8 +143,8 @@
       "market_delta": 6,
       "market_meta": {
         "mentions": 50,
-        "recent": 21,
-        "pos": 24,
+        "recent": 18,
+        "pos": 26,
         "neg": 2,
         "centralHits": 30
       },
@@ -159,10 +159,10 @@
       "market_delta": 6,
       "market_meta": {
         "mentions": 50,
-        "recent": 12,
-        "pos": 21,
+        "recent": 14,
+        "pos": 18,
         "neg": 0,
-        "centralHits": 15
+        "centralHits": 16
       },
       "rank": 10,
       "delta_rank": 0
@@ -174,10 +174,10 @@
       "score": 84,
       "market_delta": 6,
       "market_meta": {
-        "mentions": 35,
-        "recent": 8,
-        "pos": 17,
-        "neg": 6,
+        "mentions": 34,
+        "recent": 7,
+        "pos": 14,
+        "neg": 5,
         "centralHits": 3
       },
       "rank": 11,
@@ -192,9 +192,9 @@
       "market_meta": {
         "mentions": 50,
         "recent": 5,
-        "pos": 21,
+        "pos": 25,
         "neg": 0,
-        "centralHits": 25
+        "centralHits": 23
       },
       "rank": 12,
       "delta_rank": 0
@@ -206,9 +206,9 @@
       "score": 84,
       "market_delta": 6,
       "market_meta": {
-        "mentions": 44,
-        "recent": 1,
-        "pos": 12,
+        "mentions": 46,
+        "recent": 2,
+        "pos": 13,
         "neg": 0,
         "centralHits": 3
       },
@@ -223,10 +223,10 @@
       "market_delta": 6,
       "market_meta": {
         "mentions": 49,
-        "recent": 2,
-        "pos": 15,
+        "recent": 1,
+        "pos": 12,
         "neg": 0,
-        "centralHits": 6
+        "centralHits": 4
       },
       "rank": 14,
       "delta_rank": 0
@@ -240,8 +240,8 @@
       "market_meta": {
         "mentions": 49,
         "recent": 27,
-        "pos": 16,
-        "neg": 11,
+        "pos": 14,
+        "neg": 19,
         "centralHits": 11
       },
       "rank": 15,
@@ -255,10 +255,10 @@
       "market_delta": 6,
       "market_meta": {
         "mentions": 47,
-        "recent": 13,
+        "recent": 9,
         "pos": 25,
         "neg": 0,
-        "centralHits": 20
+        "centralHits": 19
       },
       "rank": 16,
       "delta_rank": 0
@@ -270,14 +270,14 @@
       "score": 83,
       "market_delta": 4,
       "market_meta": {
-        "mentions": 27,
+        "mentions": 28,
         "recent": 6,
         "pos": 6,
-        "neg": 3,
+        "neg": 4,
         "centralHits": 0
       },
       "rank": 17,
-      "delta_rank": 4
+      "delta_rank": 0
     },
     {
       "name": "CrewAI",
@@ -287,13 +287,13 @@
       "market_delta": 6,
       "market_meta": {
         "mentions": 27,
-        "recent": 3,
-        "pos": 12,
-        "neg": 1,
+        "recent": 5,
+        "pos": 11,
+        "neg": 2,
         "centralHits": 0
       },
       "rank": 18,
-      "delta_rank": -1
+      "delta_rank": 0
     },
     {
       "name": "Semantic Kernel",
@@ -302,14 +302,14 @@
       "score": 83,
       "market_delta": 6,
       "market_meta": {
-        "mentions": 30,
+        "mentions": 29,
         "recent": 0,
-        "pos": 16,
+        "pos": 14,
         "neg": 0,
         "centralHits": 2
       },
       "rank": 19,
-      "delta_rank": -1
+      "delta_rank": 0
     },
     {
       "name": "Automation Anywhere",
@@ -320,12 +320,12 @@
       "market_meta": {
         "mentions": 48,
         "recent": 1,
-        "pos": 36,
+        "pos": 31,
         "neg": 0,
         "centralHits": 17
       },
       "rank": 20,
-      "delta_rank": -1
+      "delta_rank": 0
     },
     {
       "name": "PEGA",
@@ -334,14 +334,14 @@
       "score": 82,
       "market_delta": 6,
       "market_meta": {
-        "mentions": 49,
+        "mentions": 48,
         "recent": 2,
         "pos": 68,
         "neg": 2,
-        "centralHits": 19
+        "centralHits": 21
       },
       "rank": 21,
-      "delta_rank": -1
+      "delta_rank": 0
     },
     {
       "name": "LlamaIndex",
@@ -351,8 +351,8 @@
       "market_delta": 6,
       "market_meta": {
         "mentions": 26,
-        "recent": 0,
-        "pos": 10,
+        "recent": 1,
+        "pos": 9,
         "neg": 2,
         "centralHits": 0
       },
@@ -366,9 +366,9 @@
       "score": 82,
       "market_delta": 6,
       "market_meta": {
-        "mentions": 49,
-        "recent": 9,
-        "pos": 23,
+        "mentions": 50,
+        "recent": 10,
+        "pos": 26,
         "neg": 0,
         "centralHits": 27
       },
@@ -382,10 +382,10 @@
       "score": 82,
       "market_delta": 6,
       "market_meta": {
-        "mentions": 49,
-        "recent": 17,
-        "pos": 21,
-        "neg": 1,
+        "mentions": 50,
+        "recent": 14,
+        "pos": 29,
+        "neg": 2,
         "centralHits": 5
       },
       "rank": 24,
@@ -401,7 +401,7 @@
         "mentions": 50,
         "recent": 24,
         "pos": 16,
-        "neg": 0,
+        "neg": 1,
         "centralHits": 9
       },
       "rank": 25,
@@ -415,10 +415,10 @@
       "market_delta": 6,
       "market_meta": {
         "mentions": 50,
-        "recent": 7,
-        "pos": 19,
-        "neg": 5,
-        "centralHits": 11
+        "recent": 5,
+        "pos": 16,
+        "neg": 4,
+        "centralHits": 13
       },
       "rank": 26,
       "delta_rank": 0
@@ -430,11 +430,11 @@
       "score": 81,
       "market_delta": 6,
       "market_meta": {
-        "mentions": 46,
+        "mentions": 48,
         "recent": 3,
-        "pos": 22,
+        "pos": 24,
         "neg": 0,
-        "centralHits": 10
+        "centralHits": 9
       },
       "rank": 27,
       "delta_rank": 0
@@ -448,7 +448,7 @@
       "market_meta": {
         "mentions": 32,
         "recent": 0,
-        "pos": 15,
+        "pos": 11,
         "neg": 0,
         "centralHits": 5
       },
@@ -463,10 +463,10 @@
       "market_delta": 6,
       "market_meta": {
         "mentions": 50,
-        "recent": 1,
-        "pos": 14,
-        "neg": 2,
-        "centralHits": 8
+        "recent": 5,
+        "pos": 13,
+        "neg": 5,
+        "centralHits": 9
       },
       "rank": 29,
       "delta_rank": 0
@@ -480,9 +480,9 @@
       "market_meta": {
         "mentions": 48,
         "recent": 8,
-        "pos": 25,
+        "pos": 27,
         "neg": 0,
-        "centralHits": 17
+        "centralHits": 20
       },
       "rank": 30,
       "delta_rank": 0
@@ -494,11 +494,11 @@
       "score": 80,
       "market_delta": 6,
       "market_meta": {
-        "mentions": 48,
-        "recent": 4,
-        "pos": 31,
-        "neg": 1,
-        "centralHits": 24
+        "mentions": 49,
+        "recent": 7,
+        "pos": 23,
+        "neg": 0,
+        "centralHits": 25
       },
       "rank": 31,
       "delta_rank": 0
@@ -510,11 +510,11 @@
       "score": 80,
       "market_delta": 6,
       "market_meta": {
-        "mentions": 32,
+        "mentions": 30,
         "recent": 0,
         "pos": 17,
         "neg": 0,
-        "centralHits": 10
+        "centralHits": 11
       },
       "rank": 32,
       "delta_rank": 0
@@ -530,7 +530,7 @@
         "recent": 0,
         "pos": 22,
         "neg": 1,
-        "centralHits": 21
+        "centralHits": 19
       },
       "rank": 33,
       "delta_rank": 0
@@ -544,7 +544,7 @@
       "market_meta": {
         "mentions": 28,
         "recent": 0,
-        "pos": 15,
+        "pos": 14,
         "neg": 0,
         "centralHits": 2
       },
@@ -558,10 +558,10 @@
       "score": 80,
       "market_delta": 6,
       "market_meta": {
-        "mentions": 34,
-        "recent": 1,
-        "pos": 13,
-        "neg": 0,
+        "mentions": 36,
+        "recent": 0,
+        "pos": 12,
+        "neg": 1,
         "centralHits": 0
       },
       "rank": 35,
@@ -576,7 +576,7 @@
       "market_meta": {
         "mentions": 50,
         "recent": 22,
-        "pos": 35,
+        "pos": 29,
         "neg": 1,
         "centralHits": 29
       },
@@ -591,10 +591,10 @@
       "market_delta": 6,
       "market_meta": {
         "mentions": 49,
-        "recent": 1,
-        "pos": 27,
-        "neg": 1,
-        "centralHits": 32
+        "recent": 2,
+        "pos": 26,
+        "neg": 0,
+        "centralHits": 33
       },
       "rank": 37,
       "delta_rank": 0
@@ -609,7 +609,7 @@
         "mentions": 32,
         "recent": 0,
         "pos": 7,
-        "neg": 1,
+        "neg": 0,
         "centralHits": 9
       },
       "rank": 38,
@@ -624,9 +624,9 @@
       "market_meta": {
         "mentions": 47,
         "recent": 2,
-        "pos": 17,
+        "pos": 19,
         "neg": 0,
-        "centralHits": 27
+        "centralHits": 28
       },
       "rank": 39,
       "delta_rank": 0
@@ -642,7 +642,7 @@
         "recent": 2,
         "pos": 32,
         "neg": 0,
-        "centralHits": 28
+        "centralHits": 27
       },
       "rank": 40,
       "delta_rank": 0
@@ -655,10 +655,10 @@
       "market_delta": 6,
       "market_meta": {
         "mentions": 50,
-        "recent": 11,
+        "recent": 10,
         "pos": 22,
-        "neg": 0,
-        "centralHits": 33
+        "neg": 2,
+        "centralHits": 32
       },
       "rank": 41,
       "delta_rank": 0
@@ -672,7 +672,7 @@
       "market_meta": {
         "mentions": 45,
         "recent": 3,
-        "pos": 29,
+        "pos": 28,
         "neg": 0,
         "centralHits": 29
       },
@@ -686,11 +686,11 @@
       "score": 79,
       "market_delta": 6,
       "market_meta": {
-        "mentions": 48,
-        "recent": 3,
-        "pos": 30,
+        "mentions": 46,
+        "recent": 4,
+        "pos": 27,
         "neg": 0,
-        "centralHits": 32
+        "centralHits": 34
       },
       "rank": 43,
       "delta_rank": 0
@@ -702,10 +702,10 @@
       "score": 79,
       "market_delta": 6,
       "market_meta": {
-        "mentions": 50,
-        "recent": 12,
+        "mentions": 49,
+        "recent": 10,
         "pos": 36,
-        "neg": 0,
+        "neg": 2,
         "centralHits": 38
       },
       "rank": 44,
@@ -718,29 +718,13 @@
       "score": 79,
       "market_delta": 6,
       "market_meta": {
-        "mentions": 47,
-        "recent": 2,
+        "mentions": 49,
+        "recent": 1,
         "pos": 18,
         "neg": 1,
-        "centralHits": 17
+        "centralHits": 16
       },
       "rank": 45,
-      "delta_rank": 0
-    },
-    {
-      "name": "SuperAGI",
-      "website": "https://github.com/TransformerOptimus/SuperAGI",
-      "category": "Agentic Platforms / Frameworks",
-      "score": 79,
-      "market_delta": 6,
-      "market_meta": {
-        "mentions": 23,
-        "recent": 0,
-        "pos": 8,
-        "neg": 0,
-        "centralHits": 0
-      },
-      "rank": 46,
       "delta_rank": 0
     },
     {
@@ -751,13 +735,13 @@
       "market_delta": 6,
       "market_meta": {
         "mentions": 50,
-        "recent": 10,
-        "pos": 29,
+        "recent": 11,
+        "pos": 30,
         "neg": 0,
         "centralHits": 7
       },
-      "rank": 47,
-      "delta_rank": 0
+      "rank": 46,
+      "delta_rank": 1
     },
     {
       "name": "Confluent",
@@ -767,13 +751,13 @@
       "market_delta": 6,
       "market_meta": {
         "mentions": 50,
-        "recent": 2,
+        "recent": 1,
         "pos": 18,
         "neg": 0,
-        "centralHits": 4
+        "centralHits": 5
       },
-      "rank": 48,
-      "delta_rank": 0
+      "rank": 47,
+      "delta_rank": 1
     },
     {
       "name": "Datadog",
@@ -784,12 +768,12 @@
       "market_meta": {
         "mentions": 50,
         "recent": 10,
-        "pos": 19,
+        "pos": 21,
         "neg": 1,
         "centralHits": 16
       },
-      "rank": 49,
-      "delta_rank": 0
+      "rank": 48,
+      "delta_rank": 1
     },
     {
       "name": "Palo Alto Networks Cortex",
@@ -798,14 +782,14 @@
       "score": 79,
       "market_delta": 6,
       "market_meta": {
-        "mentions": 46,
+        "mentions": 47,
         "recent": 2,
         "pos": 15,
         "neg": 1,
         "centralHits": 6
       },
-      "rank": 50,
-      "delta_rank": 0
+      "rank": 49,
+      "delta_rank": 1
     },
     {
       "name": "Tidio",
@@ -814,14 +798,14 @@
       "score": 78,
       "market_delta": 6,
       "market_meta": {
-        "mentions": 28,
+        "mentions": 27,
         "recent": 2,
         "pos": 10,
         "neg": 0,
         "centralHits": 4
       },
-      "rank": 51,
-      "delta_rank": 0
+      "rank": 50,
+      "delta_rank": 1
     },
     {
       "name": "Ada",
@@ -830,14 +814,14 @@
       "score": 78,
       "market_delta": 6,
       "market_meta": {
-        "mentions": 49,
+        "mentions": 45,
         "recent": 6,
-        "pos": 34,
+        "pos": 32,
         "neg": 0,
-        "centralHits": 18
+        "centralHits": 14
       },
-      "rank": 52,
-      "delta_rank": 0
+      "rank": 51,
+      "delta_rank": 1
     },
     {
       "name": "NICE",
@@ -846,14 +830,14 @@
       "score": 78,
       "market_delta": 6,
       "market_meta": {
-        "mentions": 50,
-        "recent": 4,
-        "pos": 18,
-        "neg": 2,
-        "centralHits": 17
+        "mentions": 49,
+        "recent": 6,
+        "pos": 28,
+        "neg": 1,
+        "centralHits": 21
       },
-      "rank": 53,
-      "delta_rank": 0
+      "rank": 52,
+      "delta_rank": 1
     },
     {
       "name": "Talkdesk",
@@ -863,13 +847,13 @@
       "market_delta": 6,
       "market_meta": {
         "mentions": 49,
-        "recent": 10,
-        "pos": 19,
+        "recent": 9,
+        "pos": 21,
         "neg": 0,
-        "centralHits": 28
+        "centralHits": 29
       },
-      "rank": 54,
-      "delta_rank": 0
+      "rank": 53,
+      "delta_rank": 1
     },
     {
       "name": "Weaviate",
@@ -880,12 +864,12 @@
       "market_meta": {
         "mentions": 24,
         "recent": 1,
-        "pos": 13,
+        "pos": 12,
         "neg": 1,
-        "centralHits": 0
+        "centralHits": 1
       },
-      "rank": 55,
-      "delta_rank": 0
+      "rank": 54,
+      "delta_rank": 1
     },
     {
       "name": "Elastic",
@@ -895,13 +879,13 @@
       "market_delta": 6,
       "market_meta": {
         "mentions": 50,
-        "recent": 14,
-        "pos": 15,
+        "recent": 11,
+        "pos": 16,
         "neg": 0,
-        "centralHits": 29
+        "centralHits": 30
       },
-      "rank": 56,
-      "delta_rank": 0
+      "rank": 55,
+      "delta_rank": 1
     },
     {
       "name": "Dynatrace",
@@ -910,14 +894,14 @@
       "score": 78,
       "market_delta": 6,
       "market_meta": {
-        "mentions": 49,
-        "recent": 5,
-        "pos": 15,
+        "mentions": 50,
+        "recent": 3,
+        "pos": 17,
         "neg": 2,
         "centralHits": 15
       },
-      "rank": 57,
-      "delta_rank": 0
+      "rank": 56,
+      "delta_rank": 1
     },
     {
       "name": "Splunk",
@@ -926,14 +910,14 @@
       "score": 78,
       "market_delta": 6,
       "market_meta": {
-        "mentions": 49,
-        "recent": 2,
-        "pos": 29,
-        "neg": 1,
-        "centralHits": 23
+        "mentions": 48,
+        "recent": 0,
+        "pos": 26,
+        "neg": 0,
+        "centralHits": 21
       },
-      "rank": 58,
-      "delta_rank": 0
+      "rank": 57,
+      "delta_rank": 1
     },
     {
       "name": "SentinelOne",
@@ -942,14 +926,14 @@
       "score": 78,
       "market_delta": 6,
       "market_meta": {
-        "mentions": 45,
-        "recent": 13,
-        "pos": 29,
-        "neg": 6,
-        "centralHits": 10
+        "mentions": 46,
+        "recent": 15,
+        "pos": 37,
+        "neg": 5,
+        "centralHits": 9
       },
-      "rank": 59,
-      "delta_rank": 0
+      "rank": 58,
+      "delta_rank": 1
     },
     {
       "name": "Microsoft Sentinel",
@@ -958,14 +942,14 @@
       "score": 78,
       "market_delta": 6,
       "market_meta": {
-        "mentions": 49,
+        "mentions": 48,
         "recent": 0,
-        "pos": 16,
-        "neg": 4,
-        "centralHits": 33
+        "pos": 18,
+        "neg": 2,
+        "centralHits": 32
       },
-      "rank": 60,
-      "delta_rank": 0
+      "rank": 59,
+      "delta_rank": 1
     },
     {
       "name": "Five9",
@@ -976,12 +960,12 @@
       "market_meta": {
         "mentions": 48,
         "recent": 4,
-        "pos": 44,
+        "pos": 43,
         "neg": 0,
-        "centralHits": 20
+        "centralHits": 24
       },
-      "rank": 61,
-      "delta_rank": 0
+      "rank": 60,
+      "delta_rank": 1
     },
     {
       "name": "LivePerson",
@@ -990,14 +974,14 @@
       "score": 77,
       "market_delta": 6,
       "market_meta": {
-        "mentions": 36,
+        "mentions": 38,
         "recent": 0,
-        "pos": 34,
+        "pos": 36,
         "neg": 0,
-        "centralHits": 7
+        "centralHits": 9
       },
-      "rank": 62,
-      "delta_rank": 0
+      "rank": 61,
+      "delta_rank": 1
     },
     {
       "name": "Drift",
@@ -1007,13 +991,13 @@
       "market_delta": 6,
       "market_meta": {
         "mentions": 50,
-        "recent": 1,
-        "pos": 21,
-        "neg": 16,
-        "centralHits": 8
+        "recent": 17,
+        "pos": 17,
+        "neg": 7,
+        "centralHits": 10
       },
-      "rank": 63,
-      "delta_rank": 0
+      "rank": 62,
+      "delta_rank": 1
     },
     {
       "name": "Conversica",
@@ -1024,12 +1008,12 @@
       "market_meta": {
         "mentions": 26,
         "recent": 0,
-        "pos": 16,
+        "pos": 18,
         "neg": 0,
         "centralHits": 0
       },
-      "rank": 64,
-      "delta_rank": 0
+      "rank": 63,
+      "delta_rank": 1
     },
     {
       "name": "Outreach",
@@ -1039,13 +1023,13 @@
       "market_delta": 6,
       "market_meta": {
         "mentions": 50,
-        "recent": 2,
-        "pos": 28,
+        "recent": 3,
+        "pos": 29,
         "neg": 0,
-        "centralHits": 25
+        "centralHits": 24
       },
-      "rank": 65,
-      "delta_rank": 0
+      "rank": 64,
+      "delta_rank": 1
     },
     {
       "name": "TIBCO",
@@ -1055,13 +1039,13 @@
       "market_delta": 6,
       "market_meta": {
         "mentions": 49,
-        "recent": 0,
-        "pos": 27,
+        "recent": 1,
+        "pos": 29,
         "neg": 1,
-        "centralHits": 39
+        "centralHits": 34
       },
-      "rank": 66,
-      "delta_rank": 0
+      "rank": 65,
+      "delta_rank": 1
     },
     {
       "name": "Zapier",
@@ -1071,13 +1055,13 @@
       "market_delta": 6,
       "market_meta": {
         "mentions": 48,
-        "recent": 6,
-        "pos": 20,
+        "recent": 4,
+        "pos": 19,
         "neg": 2,
-        "centralHits": 12
+        "centralHits": 13
       },
-      "rank": 67,
-      "delta_rank": 0
+      "rank": 66,
+      "delta_rank": 1
     },
     {
       "name": "Tray.io",
@@ -1086,14 +1070,14 @@
       "score": 77,
       "market_delta": 6,
       "market_meta": {
-        "mentions": 30,
-        "recent": 0,
-        "pos": 14,
-        "neg": 3,
+        "mentions": 29,
+        "recent": 1,
+        "pos": 13,
+        "neg": 2,
         "centralHits": 8
       },
-      "rank": 68,
-      "delta_rank": 0
+      "rank": 67,
+      "delta_rank": 1
     },
     {
       "name": "SAP Signavio",
@@ -1104,12 +1088,12 @@
       "market_meta": {
         "mentions": 32,
         "recent": 0,
-        "pos": 37,
+        "pos": 36,
         "neg": 0,
         "centralHits": 14
       },
-      "rank": 69,
-      "delta_rank": 0
+      "rank": 68,
+      "delta_rank": 1
     },
     {
       "name": "AutoGPT",
@@ -1119,13 +1103,29 @@
       "market_delta": 3,
       "market_meta": {
         "mentions": 26,
-        "recent": 2,
+        "recent": 1,
         "pos": 2,
         "neg": 0,
         "centralHits": 0
       },
+      "rank": 69,
+      "delta_rank": 1
+    },
+    {
+      "name": "SuperAGI",
+      "website": "https://github.com/TransformerOptimus/SuperAGI",
+      "category": "Agentic Platforms / Frameworks",
+      "score": 77,
+      "market_delta": 4,
+      "market_meta": {
+        "mentions": 22,
+        "recent": 0,
+        "pos": 6,
+        "neg": 2,
+        "centralHits": 0
+      },
       "rank": 70,
-      "delta_rank": 0
+      "delta_rank": -24
     },
     {
       "name": "Milvus (Zilliz)",
@@ -1136,7 +1136,7 @@
       "market_meta": {
         "mentions": 18,
         "recent": 0,
-        "pos": 12,
+        "pos": 11,
         "neg": 0,
         "centralHits": 5
       },
@@ -1150,11 +1150,11 @@
       "score": 77,
       "market_delta": 6,
       "market_meta": {
-        "mentions": 35,
-        "recent": 0,
-        "pos": 25,
+        "mentions": 36,
+        "recent": 1,
+        "pos": 27,
         "neg": 1,
-        "centralHits": 36
+        "centralHits": 40
       },
       "rank": 72,
       "delta_rank": 0
@@ -1168,7 +1168,7 @@
       "market_meta": {
         "mentions": 28,
         "recent": 0,
-        "pos": 11,
+        "pos": 14,
         "neg": 0,
         "centralHits": 6
       },
@@ -1182,14 +1182,14 @@
       "score": 76,
       "market_delta": 6,
       "market_meta": {
-        "mentions": 27,
+        "mentions": 26,
         "recent": 0,
         "pos": 7,
         "neg": 0,
         "centralHits": 1
       },
       "rank": 74,
-      "delta_rank": 12
+      "delta_rank": 0
     },
     {
       "name": "Sprinklr",
@@ -1200,12 +1200,12 @@
       "market_meta": {
         "mentions": 49,
         "recent": 4,
-        "pos": 27,
+        "pos": 23,
         "neg": 0,
-        "centralHits": 30
+        "centralHits": 32
       },
       "rank": 75,
-      "delta_rank": -1
+      "delta_rank": 0
     },
     {
       "name": "Salesloft",
@@ -1215,13 +1215,13 @@
       "market_delta": 6,
       "market_meta": {
         "mentions": 49,
-        "recent": 3,
+        "recent": 2,
         "pos": 26,
-        "neg": 18,
-        "centralHits": 12
+        "neg": 17,
+        "centralHits": 13
       },
       "rank": 76,
-      "delta_rank": -1
+      "delta_rank": 0
     },
     {
       "name": "Marketo (Adobe)",
@@ -1230,14 +1230,14 @@
       "score": 76,
       "market_delta": 6,
       "market_meta": {
-        "mentions": 43,
+        "mentions": 44,
         "recent": 0,
-        "pos": 30,
+        "pos": 29,
         "neg": 0,
-        "centralHits": 16
+        "centralHits": 18
       },
       "rank": 77,
-      "delta_rank": -1
+      "delta_rank": 0
     },
     {
       "name": "Make (Integromat)",
@@ -1253,7 +1253,7 @@
         "centralHits": 2
       },
       "rank": 78,
-      "delta_rank": -1
+      "delta_rank": 0
     },
     {
       "name": "Coupa",
@@ -1262,14 +1262,14 @@
       "score": 76,
       "market_delta": 6,
       "market_meta": {
-        "mentions": 48,
-        "recent": 4,
-        "pos": 42,
+        "mentions": 46,
+        "recent": 6,
+        "pos": 39,
         "neg": 0,
         "centralHits": 8
       },
       "rank": 79,
-      "delta_rank": -1
+      "delta_rank": 0
     },
     {
       "name": "Fivetran",
@@ -1278,14 +1278,14 @@
       "score": 76,
       "market_delta": 6,
       "market_meta": {
-        "mentions": 42,
-        "recent": 5,
-        "pos": 15,
+        "mentions": 41,
+        "recent": 2,
+        "pos": 14,
         "neg": 0,
-        "centralHits": 11
+        "centralHits": 9
       },
       "rank": 80,
-      "delta_rank": -1
+      "delta_rank": 0
     },
     {
       "name": "dbt Labs",
@@ -1301,7 +1301,7 @@
         "centralHits": 0
       },
       "rank": 81,
-      "delta_rank": -1
+      "delta_rank": 0
     },
     {
       "name": "New Relic",
@@ -1310,14 +1310,14 @@
       "score": 76,
       "market_delta": 6,
       "market_meta": {
-        "mentions": 49,
-        "recent": 5,
-        "pos": 56,
+        "mentions": 50,
+        "recent": 3,
+        "pos": 59,
         "neg": 1,
-        "centralHits": 16
+        "centralHits": 18
       },
       "rank": 82,
-      "delta_rank": -1
+      "delta_rank": 0
     },
     {
       "name": "PagerDuty",
@@ -1333,7 +1333,7 @@
         "centralHits": 1
       },
       "rank": 83,
-      "delta_rank": -1
+      "delta_rank": 0
     },
     {
       "name": "PTC ThingWorx",
@@ -1342,14 +1342,14 @@
       "score": 76,
       "market_delta": 6,
       "market_meta": {
-        "mentions": 31,
+        "mentions": 30,
         "recent": 0,
-        "pos": 15,
+        "pos": 14,
         "neg": 0,
         "centralHits": 2
       },
       "rank": 84,
-      "delta_rank": -1
+      "delta_rank": 0
     },
     {
       "name": "Schneider Electric EcoStruxure",
@@ -1365,7 +1365,7 @@
         "centralHits": 1
       },
       "rank": 85,
-      "delta_rank": -1
+      "delta_rank": 0
     },
     {
       "name": "AVEVA",
@@ -1376,12 +1376,12 @@
       "market_meta": {
         "mentions": 40,
         "recent": 0,
-        "pos": 31,
-        "neg": 1,
+        "pos": 24,
+        "neg": 0,
         "centralHits": 13
       },
       "rank": 86,
-      "delta_rank": -1
+      "delta_rank": 0
     },
     {
       "name": "Kustomer",
@@ -1391,7 +1391,7 @@
       "market_delta": 6,
       "market_meta": {
         "mentions": 50,
-        "recent": 1,
+        "recent": 0,
         "pos": 27,
         "neg": 0,
         "centralHits": 27
@@ -1406,11 +1406,11 @@
       "score": 75,
       "market_delta": 6,
       "market_meta": {
-        "mentions": 49,
+        "mentions": 47,
         "recent": 0,
-        "pos": 17,
+        "pos": 20,
         "neg": 0,
-        "centralHits": 27
+        "centralHits": 29
       },
       "rank": 88,
       "delta_rank": 0
@@ -1422,30 +1422,14 @@
       "score": 75,
       "market_delta": 6,
       "market_meta": {
-        "mentions": 43,
+        "mentions": 44,
         "recent": 3,
-        "pos": 23,
+        "pos": 25,
         "neg": 0,
         "centralHits": 17
       },
       "rank": 89,
       "delta_rank": 0
-    },
-    {
-      "name": "n8n",
-      "website": "https://n8n.io",
-      "category": "Ops / Automation / RPA / iPaaS",
-      "score": 75,
-      "market_delta": 3,
-      "market_meta": {
-        "mentions": 29,
-        "recent": 4,
-        "pos": 11,
-        "neg": 10,
-        "centralHits": 0
-      },
-      "rank": 90,
-      "delta_rank": 6
     },
     {
       "name": "Airbyte",
@@ -1456,12 +1440,12 @@
       "market_meta": {
         "mentions": 25,
         "recent": 0,
-        "pos": 14,
+        "pos": 15,
         "neg": 0,
         "centralHits": 0
       },
-      "rank": 91,
-      "delta_rank": -1
+      "rank": 90,
+      "delta_rank": 1
     },
     {
       "name": "GE Digital",
@@ -1472,12 +1456,12 @@
       "market_meta": {
         "mentions": 49,
         "recent": 0,
-        "pos": 26,
+        "pos": 27,
         "neg": 0,
-        "centralHits": 14
+        "centralHits": 18
       },
-      "rank": 92,
-      "delta_rank": -1
+      "rank": 91,
+      "delta_rank": 1
     },
     {
       "name": "Emerson AspenTech",
@@ -1492,8 +1476,8 @@
         "neg": 2,
         "centralHits": 0
       },
-      "rank": 93,
-      "delta_rank": -1
+      "rank": 92,
+      "delta_rank": 1
     },
     {
       "name": "Cisco IoT",
@@ -1504,12 +1488,12 @@
       "market_meta": {
         "mentions": 50,
         "recent": 0,
-        "pos": 33,
+        "pos": 31,
         "neg": 0,
-        "centralHits": 22
+        "centralHits": 20
       },
-      "rank": 94,
-      "delta_rank": -1
+      "rank": 93,
+      "delta_rank": 1
     },
     {
       "name": "Reply.io",
@@ -1518,14 +1502,14 @@
       "score": 74,
       "market_delta": 6,
       "market_meta": {
-        "mentions": 35,
+        "mentions": 34,
         "recent": 1,
-        "pos": 11,
-        "neg": 2,
+        "pos": 9,
+        "neg": 1,
         "centralHits": 10
       },
-      "rank": 95,
-      "delta_rank": -1
+      "rank": 94,
+      "delta_rank": 1
     },
     {
       "name": "Klaviyo",
@@ -1540,8 +1524,24 @@
         "neg": 1,
         "centralHits": 6
       },
+      "rank": 95,
+      "delta_rank": 1
+    },
+    {
+      "name": "n8n",
+      "website": "https://n8n.io",
+      "category": "Ops / Automation / RPA / iPaaS",
+      "score": 74,
+      "market_delta": 2,
+      "market_meta": {
+        "mentions": 29,
+        "recent": 2,
+        "pos": 10,
+        "neg": 11,
+        "centralHits": 0
+      },
       "rank": 96,
-      "delta_rank": -1
+      "delta_rank": -6
     },
     {
       "name": "Rockwell Automation FactoryTalk",
@@ -1552,7 +1552,7 @@
       "market_meta": {
         "mentions": 33,
         "recent": 0,
-        "pos": 27,
+        "pos": 28,
         "neg": 3,
         "centralHits": 3
       },
@@ -1568,7 +1568,7 @@
       "market_meta": {
         "mentions": 35,
         "recent": 0,
-        "pos": 16,
+        "pos": 13,
         "neg": 0,
         "centralHits": 2
       },
@@ -1582,11 +1582,11 @@
       "score": 73,
       "market_delta": 6,
       "market_meta": {
-        "mentions": 49,
+        "mentions": 48,
         "recent": 0,
-        "pos": 16,
+        "pos": 17,
         "neg": 1,
-        "centralHits": 12
+        "centralHits": 11
       },
       "rank": 99,
       "delta_rank": 0
