@@ -1,0 +1,25 @@
+name: Publication watchdog
+
+on:
+  schedule:
+    - cron: "47 4,10,16,22 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  check:
+    if: github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+      - name: Check actual publication and delay
+        run: node scripts/publication.cjs check
