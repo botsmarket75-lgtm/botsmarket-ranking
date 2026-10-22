@@ -3,28 +3,64 @@ name: Daily ranking
 on:
   schedule:
     - cron: "15 3 * * *"
+    # Recovery opportunities; the guard prevents a second calculation that day.
+    - cron: "37 4,5,6,9,12 * * *"
   workflow_dispatch:
 
 permissions:
   contents: write
 
+concurrency:
+  group: daily-ranking-publication
+  cancel-in-progress: false
+
 jobs:
   build:
+    if: github.ref == 'refs/heads/main'
     runs-on: ubuntu-latest
+    timeout-minutes: 15
+    env:
+      TZ: UTC
     steps:
       - uses: actions/checkout@v4
+        with:
+          # Read the latest publication after acquiring the concurrency lock.
+          ref: main
+          fetch-depth: 0
 
       - uses: actions/setup-node@v4
         with:
           node-version: "20"
 
+      - name: Check publication and report delay
+        id: publication
+        run: node scripts/publication.cjs plan
+
       - name: Build ranking
+        if: steps.publication.outputs.build == 'true'
         run: node build_rankings.js
 
-      - name: Commit ranking files
+      - name: Validate generated files
+        if: steps.publication.outputs.build == 'true'
+        env:
+          PUBLICATION_DATE: ${{ steps.publication.outputs.date }}
+        run: node scripts/publication.cjs verify --date "$PUBLICATION_DATE"
+
+      - name: Commit and push ranking files
+        if: steps.publication.outputs.build == 'true'
+        env:
+          PUBLICATION_DATE: ${{ steps.publication.outputs.date }}
+        run: bash scripts/publish-ranking.sh "$PUBLICATION_DATE"
+
+      - name: Verify publication on main
+        env:
+          PUBLICATION_DATE: ${{ steps.publication.outputs.date }}
         run: |
-          git config user.name "botsmarket-bot"
-          git config user.email "botsmarket-bot@users.noreply.github.com"
-          git add ranking.json prev_ranking.json history/*.json
-          git commit -m "Daily ranking update" || echo "No changes"
-          git push
+          git fetch origin refs/heads/main:refs/remotes/origin/main
+          node scripts/publication.cjs verify --ref origin/main --date "$PUBLICATION_DATE"
+
+      - name: Report publication failure
+        if: failure()
+        run: |
+          echo "::error::Daily publication was not confirmed. Inspect the failed step; a later recovery run can retry."
+          echo "Publication failed or could not be verified. See the failed step above." >> "$GITHUB_STEP_SUMMARY"
